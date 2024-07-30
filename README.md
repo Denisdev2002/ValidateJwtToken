@@ -31,10 +31,13 @@
     ### Dependências
     - O projeto utiliza os seguintes pacotes NuGet:
 
-        *1*.Microsoft.Extensions.Configuration
-        *2*.Microsoft.Extensions.Logging
-        *3*.Microsoft.IdentityModel.Tokens
-        *4*.System.IdentityModel.Tokens.Jwt
+        *1*.Microsoft.Extensions.Configuration;
+
+        *2*.Microsoft.Extensions.Logging;
+
+        *3*.Microsoft.IdentityModel.Tokens;
+        
+        *4*.System.IdentityModel.Tokens.Jwt;
         - Uso
             - Geração de Token
                 A classe JwtTokenGenerate é responsável pela geração do token JWT. O método CreateToken(User user) recebe um objeto User e gera um token JWT baseado nas informações fornecidas.
